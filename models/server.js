@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('cors');
+
 
 
 class Server {
@@ -19,11 +19,7 @@ class Server {
     }
 
     middlewares() {
-        //cors
-        this.app.use(cors());
 
-        //parseo y lectura del body
-        this.app.use(express.json());
 
 
         //directorio publico
@@ -31,7 +27,7 @@ class Server {
     }
 
     routes() {
-        this.app.use(this.usuariosPath, require('../routes/usuarios'));
+
     }
 
     listen() {
