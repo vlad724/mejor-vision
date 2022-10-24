@@ -43,14 +43,19 @@ footer {
     background-position: center;
 }
 
-.nosotros {
-    width: 80%;
-    margin-top: 50px;
+#acerca {
+    color: #04AA6D;
+    background-color: #04AA6D;
+}
+
+#acerca-tag {
+    background-color: black;
+    width: 50%;
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
     border: solid 2px black;
     border-radius: 34px;
-    background-color: rgb(231, 135, 9);
 }
 
 .barra {
