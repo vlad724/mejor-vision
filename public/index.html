@@ -3,29 +3,18 @@
 
 <head>
     <title>Mejor-Visión</title>
-    <link rel="shortcut icon" href="img/logo.jpg">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/vladzzers/image/upload/v1666616804/logo_tpe8qo.jpg">
 </head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/Estilos.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="barra">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a href="index.html"> <img src="https://i.ibb.co/QY6f5P0/logo.jpg" width="50" height="50">Mejor-Visión</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li><a href="#cruceros">cruceros</a></li>
-                    <li><a href="#footer">footer</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div id='nav'></div>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -67,15 +56,16 @@
 
     <section id="cruceros">
         <div class="container-fluid text-center bg-grey">
-            <FONT COLOR="black">
-                <h2>Cruceros</h2><br></FONT>
-            <FONT COLOR="cyan">
+            <FONT COLOR="red">
+                <h2>Cruceros</h2><br>
+            </FONT>
+            <FONT COLOR="green">
                 <h4> nuestros 3 cruceros</h4>
             </FONT>
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src="img/crucero1.jpeg" alt="Paris" width="400" height="300">
+                        <img src="img/crucero2.jpg" alt="Paris" width="400" height="300">
                         <p><strong>seafly cxr-001</strong></p>
                         <p>Este crucero se caracteriza por su gran espacio</p>
                     </div>
@@ -89,7 +79,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src="img/crucero3.jpg" alt="San Francisco" width="400" height="300">
+                        <img src="img/crucero2.jpg" alt="New York" width="400" height="300">
                         <p><strong>seafly cvu-025</strong></p>
                         <p>Sus grandes habitaciones y ventanas lo hacen atractivo</p>
                     </div>
@@ -97,18 +87,36 @@
             </div>
         </div>
     </section>
-
+    <section id="nosotros" class="nosotros">
+        <div class="container-fluid text-center bg-grey">
+            <FONT COLOR="red">
+                <h2>Lorem Ipsum</h2><br>
+            </FONT>
+        </div>
+        <p>
+            Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College
+            in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32
+            and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor
+            sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
+            in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        </p>
+    </section>
+    <section id="wsp">
+        <div class="container-fluid text-center bg-grey">
+            <FONT COLOR="red">
+                <h2>haz tus consultas</h2><br>
+            </FONT>
+        </div>
+        <div id="whatsapp"></div>
+    </section>
 </body>
-<section id="footer">
-    <footer>
-        <p>Author: Hege Refsnes</p>
-        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-        <a href="https://api.whatsapp.com/send?phone=+56 9 8392 8929&text=Hola, Nececito mas informacion!">hablanos al whatsapp</a>
-    </footer>
-</section>
+<div id="footer"></div>
+
+
 
 
 <script type="js/jquery.js"></script>
 <script type="js/bootstrap.min.js"></script>
+<script src="js/master-page.js"></script>
 
 </html>
