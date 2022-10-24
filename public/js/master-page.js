@@ -18,7 +18,6 @@ const barra = '<nav class="navbar navbar-inverse">' +
 
 nav.innerHTML = barra;
 
-
 let footer = document.getElementById('footer');
 const pie = '<section id="footer">' +
     '<footer>' +
