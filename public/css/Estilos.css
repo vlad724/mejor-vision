@@ -7,8 +7,8 @@ footer {
     padding: 25px;
 }
 
-.carousel-inner img {
-    width: 70%;
+.carousel-inner iframe {
+    width: 100%;
     margin: auto;
     min-height: 200spx;
 }
