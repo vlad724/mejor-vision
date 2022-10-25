@@ -2,7 +2,7 @@ let nav = document.getElementById('nav');
 const barra = '<nav class="navbar navbar-inverse">' +
     '<div class="barra" id="barra">' +
     '<div class="container-fluid">' +
-    '<div class="navbar-header">' +
+    '<div class="navbar-header" class="logo" id="logo">' +
     '<a href="index.html"> <img src="https://res.cloudinary.com/vladzzers/image/upload/v1666616804/logo_tpe8qo.jpg" width="30" height="30">Mejor-Visión</a>' +
     '</div>' +
     '<a href="#cruceros">cruceros</a>' +
