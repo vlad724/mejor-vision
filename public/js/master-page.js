@@ -8,7 +8,7 @@ const barra = '<nav class="navbar navbar-inverse">' +
     '<a href="#cruceros">cruceros</a>' +
     '<a href="#footer">footer</a>' +
     '<a href="#wsp">wsp</a>' +
-    '<a href="#nosotros">Acerca de nosotros</a>' +
+    '<a href="#nosotros">Nosotros</a>' +
     '<a href="javascript:void(0);" class="icon" onclick="myFunction()">' +
     '<i class="fa fa-bars"></i>' +
     '</a>' +

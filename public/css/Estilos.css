@@ -66,7 +66,7 @@ footer {
 }
 
 .barra a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -93,6 +93,11 @@ footer {
 @media screen and (max-width: 600px) {
     .barra a:not(:first-child) {
         display: none;
+    }
+    .barra a {
+        float: left;
+        display: block;
+        text-align: left;
     }
     .barra a.icon {
         position: absolute;
@@ -121,9 +126,9 @@ footer {
         top: 0;
     }
     .barra.responsive a {
-        float: none;
+        float: left;
         display: block;
-        text-align: left;
+        text-align: right;
     }
 }
 
@@ -133,7 +138,7 @@ footer {
 .ir-arriba {
     display: none;
     background-repeat: no-repeat;
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     cursor: pointer;
     position: fixed;
