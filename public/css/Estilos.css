@@ -1,3 +1,7 @@
+.body {
+    margin: 0;
+}
+
 .navbar {
     margin-bottom: 0;
 }
@@ -45,7 +49,8 @@ footer {
 
 #acerca {
     color: #04AA6D;
-    background-color: #04AA6D;
+    background-image: url("https://res.cloudinary.com/vladzzers/image/upload/v1666790773/cielo-nosotros_m7hr4q.jpg");
+    font-family: system-ui;
 }
 
 #acerca-tag {
@@ -54,7 +59,7 @@ footer {
     margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
-    border: solid 2px black;
+    border: solid 2px green;
     border-radius: 34px;
 }
 
