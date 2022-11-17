@@ -55,7 +55,9 @@ footer {
 
 #inicio {
     color: #04AA6D;
-    background-image: url("https://res.cloudinary.com/vladzzers/image/upload/v1668697480/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2_yyqkaq.webp");
+    background-image: url("https://res.cloudinary.com/vladzzers/image/upload/v1668701161/WhatsApp-Video-2022-11-17-at-12.55.28_uakvjl.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 #acerca-tag {
