@@ -29,17 +29,6 @@ const pie = '<section id="footer">' +
     '</section>';
 footer.innerHTML = pie;
 
-let whatsapp = document.getElementById('whatsapp');
-const wspa = '<p> Cotiza tus lentes con nosotros: <a href="https://walink.co/fae579" target="_blank">' +
-    '<img src="https://ebweb.es/wp-content/uploads/2020/09/logo-wasap.png" width="35" height="35">' +
-    '</a></div></p>' +
-    '<p> Trabaja con nosotros: <a href="https://walink.co/2bcfa3" target="_blank">' +
-    '<img src="https://res.cloudinary.com/vladzzers/image/upload/v1668703490/whatsapp-business-bg_z4k7tb.png" width="35" height="35">' +
-    '</a></div></p>' +
-    '<p> Revisa nuestro instagram: <a href="https://instagram.com/op.mejorvision?igshid=N2ZiY2E3YmU=" target="_blank">' +
-    '<img src="https://res.cloudinary.com/vladzzers/image/upload/v1666642428/pngwing.com_ghbomd.png" width="50" height="35">' +
-    '</a></div></p>';
-whatsapp.innerHTML = wspa;
 
 function myFunction() {
     var x = document.getElementById("barra");
