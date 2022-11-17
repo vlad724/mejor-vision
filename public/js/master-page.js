@@ -23,8 +23,8 @@ nav.innerHTML = barra;
 let footer = document.getElementById('footer');
 const pie = '<section id="footer">' +
     '<footer>' +
-    '<p>Author: Tusca Chetes</p>' +
-    '<p><a href="mailto:tuscachetes@example.com">tuscachetes@example.com</a></p>' +
+    '<p>Author: Vladimir López</p>' +
+    '<p><a href="mailto:vla.lopez@duocuc.cl">vla.lopez@duocuc.cl</a></p>' +
     '</footer>' +
     '</section>';
 footer.innerHTML = pie;
