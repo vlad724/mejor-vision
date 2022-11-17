@@ -8,6 +8,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/Estilos.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -60,7 +61,24 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <section id="inicio">
+        <!-- Header -->
+        <header class="w3-container w3-center" style="padding:128px 16px">
+            <h1 class="w3-margin w3-jumbo">START PAGE</h1>
+            <p class="w3-xlarge">Template by w3.css</p>
+            <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+        </header>
+    </section>
     <section id="nosotros">
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                    <p>Some text. Some text. Some text.</p>
+                    <p>Some text. Some text. Some text.</p>
+                </div>
+            </div>
+        </div>
 
         <div class="row text-center" id="acerca">
             <div class="container-fluid text-center bg-grey">
@@ -70,7 +88,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="thumbnail" id="acerca-tag">
-                    <img src="https://res.cloudinary.com/vladzzers/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1666793623/906e7801-50c4-4dff-a656-850528b06c96_appo1w.jpg" alt="Paris" width="300" height="100">
+                    <img src="https://res.cloudinary.com/vladzzers/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1666793623/906e7801-50c4-4dff-a656-850528b06c96_appo1w.jpg" alt="Paris" width="300" height="100" style="width:100%;cursor:zoom-in" onclick="document.getElementById('id01').style.display='block'">
                     <p><strong>MISIÓN</strong></p>
                     <p>Nuestra misión es velar por la salud visual de las personas de forma integral, consciente e inclusiva, para ello disponemos de profesionales líderes en su cargo y equipos de última tecnología debidamente certificados. Entregando así
                         un servicio de alta calidad, rapidez y funcionalidad, la variante calidad-precio nos hace ser la mejor opción del mercado para todas las personas.</p>
@@ -97,6 +115,7 @@
             </div>
         </div>
     </section>
+
     <section id="wsp">
         <div class="container-fluid text-center bg-grey">
             <FONT COLOR="red">

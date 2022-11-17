@@ -53,6 +53,11 @@ footer {
     font-family: system-ui;
 }
 
+#inicio {
+    color: #04AA6D;
+    background-image: url("https://res.cloudinary.com/vladzzers/image/upload/v1668697480/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2_yyqkaq.webp");
+}
+
 #acerca-tag {
     background-color: black;
     width: 80%;

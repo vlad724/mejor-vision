@@ -7,7 +7,7 @@ const barra = '<nav class="navbar navbar-inverse">' +
     '<a href="index.html"> <img src="https://res.cloudinary.com/vladzzers/image/upload/v1666616804/logo_tpe8qo.jpg" width="30" height="30">Mejor-Visión</a>' +
     '</div>' +
     '<a href="galeria.html">Galeria</a>' +
-    '<a href="#footer">footer</a>' +
+    '<a href="#inicio">inicio</a>' +
     '<a href="#wsp">wsp</a>' +
     '<a href="#nosotros">Nosotros</a>' +
     '<a href="javascript:void(0);" class="icon" onclick="myFunction()">' +
