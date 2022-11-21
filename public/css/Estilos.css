@@ -15,24 +15,6 @@ footer {
     }
 }
 
-#cajaformulario {
-    width: 50%;
-    margin-top: 30px;
-    margin-right: auto;
-    margin-left: auto;
-    border: solid 2px black;
-    border-radius: 34px;
-}
-
-#cajaformulario h3 {
-    margin-left: 30px;
-}
-
-#cajabtn {
-    margin-bottom: 10px;
-    margin-left: 40%;
-}
-
 #cruceros {
     background-image: url("https://previews.123rf.com/images/kroljaaa/kroljaaa1909/kroljaaa190900048/130722887-gafas-negras-ojos-de-patrones-sin-fisuras-sobre-fondo-blanco-los-anteojos-ilustraci%C3%B3n-vectorial-fond.jpg");
     background-size: cover;
