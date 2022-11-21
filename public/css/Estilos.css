@@ -22,7 +22,7 @@ footer {
 }
 
 #acerca {
-    color: #04AA6D;
+    color: black;
     background-image: url("https://res.cloudinary.com/vladzzers/image/upload/v1666790773/cielo-nosotros_m7hr4q.jpg");
     font-family: system-ui;
 }
@@ -33,7 +33,7 @@ footer {
 }
 
 #acerca-tag {
-    background-color: black;
+    background-color: white;
     width: 80%;
     margin-top: 30px;
     margin-right: auto;
