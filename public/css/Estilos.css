@@ -28,7 +28,7 @@ footer {
 
 #inicio {
     color: black;
-    background-image: url('https://res.cloudinary.com/vladzzers/image/upload/v1668711305/img-pc_gvh9r3.jpg');
+    background-color: rgba(64, 207, 255, 0.76);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -92,7 +92,7 @@ footer {
     }
     #inicio {
         color: black;
-        background-image: url('https://res.cloudinary.com/vladzzers/image/upload/v1668711305/img-pc_gvh9r3.jpg');
+        background-color: background-color: rgba(64, 207, 255, 0.76);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
