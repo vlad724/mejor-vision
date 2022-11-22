@@ -7,8 +7,8 @@ const barra = '<nav class="navbar navbar-inverse">' +
     '<a href="index.html"> <img src="https://res.cloudinary.com/vladzzers/image/upload/v1666616804/logo_tpe8qo.jpg" width="30" height="30">Mejor-Visión</a>' +
     '</div>' +
     '<a href="#contact">Contactanos</a>' +
+    '<a href="galeria.html">Videos e imagenes</a>' +
     '<a href="#marcas">Marcas asociadas</a>' +
-    '<a href="galeria.html">Nuestros trabajos</a>' +
     '<a href="#nosotros">Nosotros</a>' +
     '<a href="#inicio">Quienes somos</a>' +
     '<a href="javascript:void(0);" class="icon" onclick="myFunction()">' +
@@ -21,14 +21,6 @@ const barra = '<nav class="navbar navbar-inverse">' +
 
 nav.innerHTML = barra;
 
-let footer = document.getElementById('footer');
-const pie = '<section id="footer">' +
-    '<footer>' +
-    '<p>Author: Vladimir López</p>' +
-    '<p><a href="mailto:vla.lopez@duocuc.cl">vla.lopez@duocuc.cl</a></p>' +
-    '</footer>' +
-    '</section>';
-footer.innerHTML = pie;
 
 
 function myFunction() {

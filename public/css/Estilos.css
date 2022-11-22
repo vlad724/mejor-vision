@@ -15,21 +15,22 @@ footer {
     }
 }
 
-#cruceros {
-    background-image: url("https://previews.123rf.com/images/kroljaaa/kroljaaa1909/kroljaaa190900048/130722887-gafas-negras-ojos-de-patrones-sin-fisuras-sobre-fondo-blanco-los-anteojos-ilustraci%C3%B3n-vectorial-fond.jpg");
+#galeria {
+    background-color: rgb(197, 56, 56);
     background-size: cover;
     background-position: center;
 }
 
 #acerca {
-    color: black;
-    background-image: url("https://res.cloudinary.com/vladzzers/image/upload/v1666790773/cielo-nosotros_m7hr4q.jpg");
+    color: darkblue;
     font-family: system-ui;
 }
 
 #inicio {
     color: black;
-    background-color: gray;
+    background-image: url('https://res.cloudinary.com/vladzzers/image/upload/v1668711305/img-pc_gvh9r3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 #acerca-tag {
@@ -90,7 +91,8 @@ footer {
         display: block;
     }
     #inicio {
-        background-image: url("");
+        color: black;
+        background-image: url('https://res.cloudinary.com/vladzzers/image/upload/v1668711305/img-pc_gvh9r3.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }

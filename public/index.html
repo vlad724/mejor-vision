@@ -50,7 +50,7 @@
     <section id="inicio">
         <!--modal nosotros-->
         <div id="modalinicio" class="w3-modal">
-            <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-modal-content w3-animate-zoom w3-grey" style="border-radius: 10px;">
                 <div class="w3-container">
                     <span onclick="document.getElementById('modalinicio').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                     <h1 class="w3-margin-center w3-jumbo">Sobre nosotros</h1>
@@ -61,11 +61,10 @@
                 </div>
             </div>
         </div>
-        <!-- Header -->
         <div class="w3-container w3-content w3-padding-64" style="width:100%;">
-            <div class="w3-container w3-center w3-green" style="padding:75px 16px">
-                <h1 class="w3-margin w3-jumbo">MEJOR VISIÓN</h1>
-                <p class="w3-xlarge">Somos una optica que da confianza</p>
+            <div class="w3-container w3-center" style="padding:75px 16px;border-radius: 10px;background-color: rgba(0, 87, 248, 0.76);">
+                <h1 class="w3-margin w3-jumbo " style="color: rgb(0, 0, 0); font-family: serif;">MEJOR VISIÓN</h1>
+                <p class="w3-xlarge" style="color: white; font-family: cursive;">Somos una óptica que da confianza</p>
                 <BR>
                 <button onclick="document.getElementById('modalinicio').style.display='block'" class="w3-button w3-black">Saber mas</button>
             </div>
@@ -73,7 +72,7 @@
     </section>
     <section id="nosotros">
         <div id="modalmision" class="w3-modal">
-            <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-modal-content w3-animate-zoom w3-grey" style="border-radius: 10px;">
                 <div class="w3-container">
                     <span onclick="document.getElementById('modalmision').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                     <h1 class="w3-margin-center w3-jumbo">MISIÓN</h1>
@@ -85,7 +84,7 @@
         </div>
 
         <div id="modalvision" class="w3-modal">
-            <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-modal-content w3-animate-zoom w3-grey" style="border-radius: 10px;">
                 <div class="w3-container">
                     <span onclick="document.getElementById('modalvision').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                     <h1 class="w3-margin-center w3-jumbo">VISIÓN</h1>
@@ -97,7 +96,7 @@
         </div>
 
         <div id="modalvalores" class="w3-modal">
-            <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-modal-content w3-animate-zoom w3-grey" style="border-radius: 10px;">
                 <div class="w3-container">
                     <span onclick="document.getElementById('modalvalores').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                     <h1 class="w3-margin-center w3-jumbo">VALORES</h1>
@@ -110,24 +109,22 @@
 
         <div class="row text-center" id="acerca">
             <div class="container-fluid text-center bg-grey">
-                <FONT COLOR="black">
-                    <h1 class="w3-margin w3-jumbo">ACERCA DE NOSOTROS</h1>
-                </FONT>
+                <h1 class="w3-margin w3-jumbo" style="color:darkblue ;">ACERCA DE NOSOTROS</h1>
             </div>
             <div class="col-sm-4">
                 <div class="thumbnail" id="acerca-tag">
                     <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669056414/mision_s6xbai.png" width="300" height="100">
                     <p><strong>MISIÓN</strong></p>
-                    <p>Llegar a todos los rincones del pais mejorando la salud visual de todos nuestros pacientes.</p>
-                    <button onclick="document.getElementById('modalmision').style.display='block'" class="w3-button w3-black">Click para saber mas</button>
+                    <p>Llegar a todos los rincones del país mejorando la salud visual de todos nuestros pacientes.</p>
+                    <button onclick="document.getElementById('modalmision').style.display='block'" class="w3-button w3-blue-gray">Click para saber mas</button>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="thumbnail" id="acerca-tag">
                     <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669056268/vision_kqd3tg.png" width="300" height="100">
                     <p><strong>VISIÓN</strong></p>
-                    <p>Seguir dando una atencion de excelencia a todas las zonas de dificil acceso del pais.</p>
-                    <button onclick="document.getElementById('modalvision').style.display='block'" class="w3-button w3-black">Click para saber mas</button>
+                    <p>Seguir dando una atención de excelencia a todas las zonas de difícil acceso del país.</p>
+                    <button onclick="document.getElementById('modalvision').style.display='block'" class="w3-button w3-blue-gray">Click para saber mas</button>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -135,95 +132,95 @@
                     <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669055804/valores_g8jygp.png" width="280" height="150">
                     <p><strong>VALORES</strong></p>
                     <p>Contamos con los mejores profesionales y equipos técnicos para que usted se lleve una gran atención en su salud visual.</p>
-                    <button onclick="document.getElementById('modalvalores').style.display='block'" class="w3-button w3-black">Click para saber mas</button>
+                    <button onclick="document.getElementById('modalvalores').style.display='block'" class="w3-button w3-blue-gray">Click para saber mas</button>
                 </div>
             </div>
         </div>
     </section>
     <section id="marcas">
         <div class="w3-container w3-red w3-center" style="padding:128px 16px">
-            <h1 class="w3-margin w3-jumbo">MARCAS</h1>
-            <p class="w3-xlarge">NUESTRAS MARCAS ASOCIADAS</p><br><br>
-            <div class="row mx-auto">
-                <div class="col-lg-4 col-sm-6  col-md-4 p-0 m-0 text-center">
-                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/oakley_ej5q9w.jpg" class="img">
+            <h1 class="w3-margin w3-jumbo" style="color: rgb(0, 0, 0); font-family: serif;">MARCAS</h1>
+            <p class="w3-xlarge" style="color: white; font-family: cursive;">NUESTRAS MARCAS ASOCIADAS</p><br><br>
+            <div class="row mx-auto ">
+                <div class="col-lg-4 col-sm-6 col-md-4 p-0 m-0 text-center ">
+                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/oakley_ej5q9w.jpg " class="img ">
                 </div>
-                <div class="col-lg-4 col-sm-6  col-md-4 p-0 m-0 text-center">
-                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/rayban_kn6fia.jpg" class="img">
+                <div class="col-lg-4 col-sm-6 col-md-4 p-0 m-0 text-center ">
+                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/rayban_kn6fia.jpg " class="img ">
                 </div>
-                <div class="col-lg-4 col-sm-6  col-md-4 p-0 m-0 text-center">
-                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/pierrecardin_di9gvm.jpg" class="img">
-                </div>
-            </div><br>
-            <div class="row mx-auto">
-                <div class="col-lg-4 col-sm-6  col-md-4 p-0 m-0 text-center">
-                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/prada_cndkq0.jpg" class="img">
-                </div>
-                <div class="col-lg-4 col-sm-6  col-md-4 p-0 m-0 text-center">
-                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058142/marcas/hushp_hgeevv.jpg" class="img">
-                </div>
-                <div class="col-lg-4 col-sm-6  col-md-4 p-0 m-0 text-center">
-                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058142/marcas/Levis_z47wfd.jpg" class="img">
+                <div class="col-lg-4 col-sm-6 col-md-4 p-0 m-0 text-center ">
+                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/pierrecardin_di9gvm.jpg " class="img ">
                 </div>
             </div><br>
-            <div class="row mx-auto">
-                <div class="col-lg-4 col-sm-6  col-md-4 p-0 m-0 text-center">
-                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/mossi_nnhgnj.jpg" class="img">
+            <div class="row mx-auto ">
+                <div class="col-lg-4 col-sm-6 col-md-4 p-0 m-0 text-center ">
+                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/prada_cndkq0.jpg " class="img ">
                 </div>
-                <div class="col-lg-4 col-sm-6  col-md-4 p-0 m-0 text-center">
-                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/lacoste_i1y035.jpg" class="img">
+                <div class="col-lg-4 col-sm-6 col-md-4 p-0 m-0 text-center ">
+                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058142/marcas/hushp_hgeevv.jpg " class="img ">
                 </div>
-                <div class="col-lg-4 col-sm-6  col-md-4 p-0 m-0 text-center">
-                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058142/marcas/nike_dr8nju.jpg" class="img">
+                <div class="col-lg-4 col-sm-6 col-md-4 p-0 m-0 text-center ">
+                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058142/marcas/Levis_z47wfd.jpg " class="img ">
+                </div>
+            </div><br>
+            <div class="row mx-auto ">
+                <div class="col-lg-4 col-sm-6 col-md-4 p-0 m-0 text-center ">
+                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/mossi_nnhgnj.jpg " class="img ">
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 p-0 m-0 text-center ">
+                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058143/marcas/lacoste_i1y035.jpg " class="img ">
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-4 p-0 m-0 text-center ">
+                    <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669058142/marcas/nike_dr8nju.jpg " class="img ">
                 </div>
             </div>
 
         </div>
     </section>
 
-    <section id="contact">
-        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-            <h2 class="w3-wide w3-center">CONTACTO</h2>
-            <p class="w3-opacity w3-center"><i>Nuestras vias de comunicación</i></p>
-            <div class="w3-row w3-padding-32" style="background-color: rgb(231, 225, 225);">
-                <div class="w3-col m6 w3-large w3-margin-bottom">
+    <section id="contact ">
+        <div class="w3-container w3-content w3-padding-64 " style="max-width:800px " id="contact ">
+            <h2 class="w3-wide w3-center ">CONTACTO</h2>
+            <p class="w3-opacity w3-center "><i>Nuestras vias de comunicación</i></p>
+            <div class="w3-row w3-padding-32 " style="background-color: rgb(231, 225, 225); ">
+                <div class="w3-col m6 w3-large w3-margin-bottom ">
                     <h2><i>Nuestras redes sociales</i></h2><br>
                     <p> Cotiza tus lentes con nosotros:
-                        <a href="https://walink.co/fae579" target="_blank">
-                            <img src="https://res.cloudinary.com/vladzzers/image/upload/v1668778140/logo-wasap_hzhara.png" width="35" height="35">
+                        <a href="https://walink.co/fae579 " target="_blank ">
+                            <img src="https://res.cloudinary.com/vladzzers/image/upload/v1668778140/logo-wasap_hzhara.png " width="35 " height="35 ">
                         </a>
                     </p>
                     <p> Trabaja con nosotros:
-                        <a href="https://walink.co/2bcfa3" target="_blank">
-                            <img src="https://res.cloudinary.com/vladzzers/image/upload/v1668703490/whatsapp-business-bg_z4k7tb.png" width="35" height="35">
+                        <a href="https://walink.co/2bcfa3 " target="_blank ">
+                            <img src="https://res.cloudinary.com/vladzzers/image/upload/v1668703490/whatsapp-business-bg_z4k7tb.png " width="35 " height="35 ">
                         </a>
                     </p>
                     <p> Siguenos en redes sociales:
-                        <a href="https://instagram.com/op.mejorvision?igshid=N2ZiY2E3YmU=" target="_blank">
-                            <img src="https://res.cloudinary.com/vladzzers/image/upload/v1666642428/pngwing.com_ghbomd.png" width="50" height="35">
+                        <a href="https://instagram.com/op.mejorvision?igshid=N2ZiY2E3YmU=" target=" _blank ">
+                            <img src="https://res.cloudinary.com/vladzzers/image/upload/v1666642428/pngwing.com_ghbomd.png " width="50 " height="35 ">
                         </a>
-                        <a href="https://www.facebook.com/MardukOFC" target="_blank">
-                            <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669042977/pngwing.com_s9kasc.png" width="35" height="35">
+                        <a href="https://www.facebook.com/MardukOFC " target="_blank ">
+                            <img src="https://res.cloudinary.com/vladzzers/image/upload/v1669042977/pngwing.com_s9kasc.png " width="35 " height="35 ">
                         </a>
                     </p>
                 </div>
 
-                <div class="w3-col m6" style="background-color: rgb(255, 240, 240);">
+                <div class="w3-col m6 " style="background-color: rgb(255, 240, 240); ">
                     <h2><i>Comunicate con nosotros</i></h2><br>
-                    <form action="https://formsubmit.co/op.mejorvision@gmail.com" method="POST" target="_blank">
-                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Nombre">
+                    <form action="https://formsubmit.co/op.mejorvision@gmail.com " method="POST " target="_blank ">
+                        <div class="w3-row-padding " style="margin:0 -16px 8px -16px ">
+                            <div class="w3-half ">
+                                <input class="w3-input w3-border " type="text " placeholder="Nombre " required name="Nombre ">
                             </div>
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" value="Consulta desde pagina web" hidden>
+                            <div class="w3-half ">
+                                <input class="w3-input w3-border " type="text " value="Consulta desde pagina web " hidden>
                             </div>
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="email" placeholder="Email" required name="Email">
+                            <div class="w3-half ">
+                                <input class="w3-input w3-border " type="email " placeholder="Email " required name="Email ">
                             </div>
                         </div>
-                        <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Mensaje">
-                        <button class="w3-button w3-black w3-section w3-right" type="submit">ENVIAR</button>
+                        <input class="w3-input w3-border " type="text " placeholder="Mensaje " required name="Mensaje ">
+                        <button class="w3-button w3-black w3-section w3-right " type="submit ">ENVIAR</button>
                     </form>
                 </div>
 
@@ -232,11 +229,18 @@
         </div>
 
     </section>
-
+    <div id="footer ">
+        <section id="footer ">
+            <footer>
+                <p>Author: Vladimir López</p>
+                <p><a href="mailto:vla.lopez@duocuc.cl ">vla.lopez@duocuc.cl</a></p>
+            </footer>
+        </section>
+    </div>
 </body>
-<div id="footer"></div>
-<script type="js/jquery.js"></script>
-<script type="js/bootstrap.min.js"></script>
-<script src="js/master-page.js"></script>
+
+<script type="js/jquery.js "></script>
+<script type="js/bootstrap.min.js "></script>
+<script src="js/master-page.js "></script>
 
 </html>
