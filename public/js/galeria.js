@@ -18,17 +18,6 @@ const barra = '<nav class="navbar navbar-inverse">' +
 
 nav.innerHTML = barra;
 
-let footer = document.getElementById('footer');
-const pie = '<section id="footer">' +
-    '<footer>' +
-    '<p>Author: Vladimir López</p>' +
-    '<p><a href="mailto:vla.lopez@duocuc.cl">vla.lopez@duocuc.cl</a></p>' +
-    '</footer>' +
-    '</section>';
-footer.innerHTML = pie;
-
-
-
 function myFunction() {
     var x = document.getElementById("barra");
     if (x.className === "barra") {
